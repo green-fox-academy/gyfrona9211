@@ -1,23 +1,23 @@
-import java.security.spec.RSAOtherPrimeInfo;
 import javax.swing.*;
-
 import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class MiddleLines {
-    public static void drawImage(Graphics graphics){
-        // draw a red horizontal line to the canvas' middle
-        graphics.setColor(Color.RED);
-        graphics.drawLine(0,HEIGHT/2,WIDTH,HEIGHT/2);
-        // draw a green vertical line to the canvas' middle
-        graphics.setColor(Color.GREEN);
-        graphics.drawLine(WIDTH/2,0,WIDTH/2,HEIGHT);
+public class HorizontalLines {
+    public static void drawImage(Graphics graphics) {
+        // Create a function that takes 3 parameters and draws a single line
+        // Parameters: the x and y coordinates of the line's starting point and the graphics
+        // The function shall draw a 50 long horizontal line from that point
+        // Draw at least 3 lines with that function using a loop
 
+        for (int i = 0; i < (HEIGHT / 2); i++) {
+            drawLine(0, i * 2, graphics);
+        }
+    }
 
-        System.out.println("dasad");
-
-
+    private static void drawLine(int x, int y, Graphics g) {
+        g.setColor(new Color((int) (Math.random() * 0x1000000)));
+        g.drawLine(x, y, x + 50, y);
     }
 
     // Don't touch the code below

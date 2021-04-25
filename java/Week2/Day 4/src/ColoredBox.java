@@ -1,23 +1,20 @@
-import java.security.spec.RSAOtherPrimeInfo;
 import javax.swing.*;
-
 import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class MiddleLines {
-    public static void drawImage(Graphics graphics){
-        // draw a red horizontal line to the canvas' middle
-        graphics.setColor(Color.RED);
-        graphics.drawLine(0,HEIGHT/2,WIDTH,HEIGHT/2);
-        // draw a green vertical line to the canvas' middle
-        graphics.setColor(Color.GREEN);
-        graphics.drawLine(WIDTH/2,0,WIDTH/2,HEIGHT);
+public class ColoredBox {
+    public static void drawImage(Graphics g) {
+        // Draw a box that has different colored lines on each edge
 
-
-        System.out.println("dasad");
-
-
+        g.setColor(Color.red);
+        g.drawLine(100, 100, 200, 100);
+        g.setColor(Color.green);
+        g.drawLine(200, 100, 200, 200);
+        g.setColor(Color.blue);
+        g.drawLine(200, 200, 100, 200);
+        g.setColor(Color.black);
+        g.drawLine(100, 200, 100, 100);
     }
 
     // Don't touch the code below
