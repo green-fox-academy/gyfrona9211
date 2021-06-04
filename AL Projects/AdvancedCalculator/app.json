@@ -1,0 +1,26 @@
+{
+  "id": "6310a7d9-1532-435f-b396-1a7ff0a420e7",
+  "name": "AdvancedCalculator",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://AdvancedCalculator.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}

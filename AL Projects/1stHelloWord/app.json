@@ -1,0 +1,26 @@
+{
+  "id": "0bf087fd-26eb-486e-9e07-ae27cc81c319",
+  "name": "1stHelloWord",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://1stHelloWord.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "d7964997-48d2-4de5-82e6-366c0cd5ad1c",
+  "name": "Movies",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://Movies.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}
